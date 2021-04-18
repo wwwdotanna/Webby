@@ -1,0 +1,26 @@
+{
+  "name": "webby",
+  "version": "0.0.1",
+  "description": "Feature rich apache ang nginx container-ized server runner app.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "electron ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelable/webby.git"
+  },
+  "keywords": [
+    "webby",
+    "apache",
+    "web",
+    "server",
+    "docker"
+  ],
+  "author": "Pixelable <nadairpro@gmai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pixelable/webby/issues"
+  },
+  "homepage": "https://github.com/pixelable/webby#readme"
+}

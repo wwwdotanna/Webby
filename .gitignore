@@ -1,0 +1,5 @@
+temp/*
+config/*
+!.hold
+package-lock.json
+yarn.lock
