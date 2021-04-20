@@ -1,0 +1,78 @@
+<?php
+set_include_path('/Users/nathanna/Desktop/sites/peoples/');
+function getallheaders() {
+    $gen = array(
+    "host" => urldecode("localhost"),
+    "connection" => urldecode("keep-alive"),
+    "cache_control" => urldecode("max-age=0"),
+    "dnt" => 1,
+    "upgrade_insecure_requests" => 1,
+    "user_agent" => urldecode("Mozilla/5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2011_2_3)%20AppleWebKit/537.36%20(KHTML,%20like%20Gecko)%20Chrome/90.0.4430.72%20Safari/537.36"),
+    "accept" => urldecode("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"),
+    "sec_gpc" => 1,
+    "sec_fetch_site" => urldecode("none"),
+    "sec_fetch_mode" => urldecode("navigate"),
+    "sec_fetch_user" => urldecode("?1"),
+    "sec_fetch_dest" => urldecode("document"),
+    "accept_encoding" => urldecode("gzip,%20deflate,%20br"),
+    "accept_language" => urldecode("en-US,en;q=0.9"),
+    "if_none_match" => urldecode("W/%22277-xsGYCUA+ekDmqr0xoHSUrNq5/Zs%22"));
+    return $gen;
+}
+$_HEADER = getallheaders();
+$_COOKIE = array();
+$_ENV = array();
+$_SESSION = array();
+$_SERVER = array(
+    "PHP_SELF" => urldecode("/Users/nathanna/Desktop/sites/peoples/searches.php"),
+    "GATEWAY_INTERFACE" => urldecode("none"),
+    "SERVER_ADDR" => null,
+    "SERVER_NAME" => null,
+    "SERVER_SOFTWARE" => urldecode("Apache/2.2.24%20USING%20Webby/0.0.1"),
+    "SERVER_PROTOCOL" => urldecode("HTTP/2.0"),
+    "REQUEST_METHOD" => urldecode("GET"),
+    "REQUEST_TIME" => 1618957874631,
+    "QUERY_STRING" => urldecode("q=jane+smith&qsa=1"),
+    "HTTP_ACCEPT" => urldecode("text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"),
+    "HTTP_ACCEPT_CHARSET" => urldecode("UTF-8"),
+    "HTTP_HOST" => urldecode("localhost"),
+    "HTTP_REFERER" => urldecode("http://localhost/Users/nathanna/Desktop/sites/peoples/searches.php?q=jane+smith&qsa=1"),
+    "HTTPS" => false,
+    "REMOTE_ADDR" => null,
+    "REMOTE_HOST" => null,
+    "REMOTE_PORT" => 80,
+    "SCRIPT_FILENAME" => urldecode("/Users/nathanna/Desktop/sites/peoples/searches.php"),
+    "SERVER_ADMIN" => urldecode("admin@webby.io"),
+    "SERVER_PORT" => 80,
+    "SERVER_SIGNATURE" => urldecode("Apache/2.2.24%20USING%20Webby/0.0.1"),
+    "PATH_TRANSLATED" => urldecode("/Users/nathanna/Desktop/sites/peoples/searches.php"),
+    "SCRIPT_NAME" => urldecode("/Users/nathanna/Desktop/sites/peoples/searches.php"),
+    "SCRIPT_URI" => urldecode("/searches.php"));
+$_REQUEST = array();
+$_POST = array();
+$_GET = array(
+    "q" => urldecode("jane%20smith"),
+    "qsa" => 1);
+?><!DOCTYPE html>
+<html>
+    <head>
+        <?php
+        $title = "Welcome";
+        $description = "Search for personel, crimanals and friends using U.S. databases.";
+        include 'inc/meta.php'; ?>
+    </head>
+    <body>
+        <div class="page">
+            <?php include 'inc/header.php'; ?>
+            <?php echo $_GET['q']; ?>
+        </div>
+    </body>
+</html><?php
+echo "
+~RESOLVERFORQ~" . json_encode(array(
+    "headers" => $_HEADER,
+    "cookies" => $_COOKIE,
+    "env" => $_ENV,
+    "session" => $_SESSION
+));
+?>

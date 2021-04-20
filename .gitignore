@@ -1,5 +1,8 @@
-temp/*
-config/*
-!.hold
+src/server/sites/*
+src/server/config/*
+!src/server/sites/.hold
+!src/server/sites/-1.json
+!src/server/config/.hold
 package-lock.json
 yarn.lock
+node_modules

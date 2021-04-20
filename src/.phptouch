@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome - PeopleData®</title>
+<meta name="title" content="Welcome" />
+<meta name="description" content="Search for personel, crimanals and friends using U.S. databases." />
+<meta name="keywords" content="Welcome, people, peopledata, data, ppldb, person, crimal, information, public data, about">
+<link rel="stylesheet" href="/css/style.css">    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+    <img class="logo" src="/icon.png" />
+    <a class="authorize" href="/portal.php">Login</a>
+</div>            jane smith        </div>
+    </body>
+</html>

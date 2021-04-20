@@ -1,0 +1,116 @@
+@import url('font.css');
+
+/* Generic Classes */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: white;
+    width: 100%;
+    height: 38px;
+    position: fixed;
+    top: 0;
+}
+.header .logo {
+    height: 20px;
+    padding: 9px calc(50% - 30.5px);
+}
+.page {
+    min-height: calc(100% - 38px - 20px);
+    width: calc(100% - 26px);
+    padding: 0px;
+    margin: 10px 13px;
+    margin-top: calc(38px + 10px);
+    font-family: 'Open Sans';
+}
+.page.t2 .infobar {
+    padding: none;
+    width: calc(100% - 26px);
+    height: 34px;
+    overflow: hidden;
+    background-color: rgb(34, 34, 53);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 38px;
+    padding: 10px 13px;
+    color: white;
+}
+.page.t2 .infobar .text {
+    position: relative;
+    width: 50%;
+    user-select: none;
+    cursor: initial;
+}
+.page.t2 .infobar .text .p {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    text-overflow: ellipsis;
+    height: 1
+}
+
+.page.t2 .infobar .tools {
+    position: absolute;
+    right: 13px;
+    top: 15px;
+    width: 94px;
+}
+.page.t2 .infobar .tools .btn {
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+.page.t2 .infobar .tools .btn:last-child {
+    padding-right: 0px;
+}
+.page.t2 .infobar .tools .btn .icon {
+    height: 22px;
+    /* width: 22px; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+/* Custom Classes */
+
+.page.t2 .infobar .text .name {
+    font-size: 13px;
+    line-height: 13px;
+    height: 13px;
+    position: relative;
+    top: -2px;
+    font-weight: 600;
+}
+.page.t2 .infobar .text .path {
+    font-size: 11px;
+    line-height: 11px;
+    height: 11px;
+    opacity: 0.82;
+}
+
+.page.t2 .infobar .tools .btn.open {
+}
+.page.t2 .infobar .tools .btn.open .icon {
+    height: 21px;
+    bottom: -1px;
+}
+.page.t2 .infobar .tools .btn.delete {
+}
+.page.t2 .infobar .tools .btn.delete .icon {
+}

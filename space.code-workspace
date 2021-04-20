@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../webby/1"
+		},
+		{
+			"path": "../../sites/peoples"
+		}
+	],
+	"settings": {}
+}

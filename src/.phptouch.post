@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome - PeopleData®</title>
+<meta name="title" content="Welcome" />
+<meta name="description" content="Search for personel, crimanals and friends using U.S. databases." />
+<meta name="keywords" content="Welcome, people, peopledata, data, ppldb, person, crimal, information, public data, about">
+<link rel="stylesheet" href="/css/style.css">    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+    <img class="logo" src="/icon.png" />
+    <a class="authorize" href="/portal.php">Login</a>
+</div>            jane smith        </div>
+    </body>
+</html>
+~RESOLVERFORQ~{"headers":{"host":"localhost","connection":"keep-alive","cache_control":"max-age=0","dnt":1,"upgrade_insecure_requests":1,"user_agent":"Mozilla\/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/90.0.4430.72 Safari\/537.36","accept":"text\/html,application\/xhtml xml,application\/xml;q=0.9,image\/avif,image\/webp,image\/apng,*\/*;q=0.8,application\/signed-exchange;v=b3;q=0.9","sec_gpc":1,"sec_fetch_site":"none","sec_fetch_mode":"navigate","sec_fetch_user":"?1","sec_fetch_dest":"document","accept_encoding":"gzip, deflate, br","accept_language":"en-US,en;q=0.9","if_none_match":"W\/\"277-xsGYCUA ekDmqr0xoHSUrNq5\/Zs\""},"cookies":[],"env":[],"session":[]}
